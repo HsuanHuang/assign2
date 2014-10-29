@@ -196,7 +196,7 @@ void keyPressed() {
       }
     }
     
-    if(gameState != GAME_RUN && key==ENTER){
+    if(gameState != GAME_RUN && gameState != FROG_DIE && key==ENTER){
       gameState = GAME_RUN;
       life=3;
       frogX = frogInitX;
