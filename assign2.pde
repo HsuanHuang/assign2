@@ -128,7 +128,7 @@ void draw(){
          
          //CAR HIT
          boolean hit;
-             if ((frogCY<=rightCar2Y+32 && frogCY>rightCar2Y && frogR >= rightCar2X && frogL <= rightCar2X+32)||//car1 hit
+             if ((frogCY<=rightCar2Y+32 && frogCY>rightCar2Y && frogR >= rightCar2X+4 && frogL <= rightCar2X+32)||//car1 hit
                  (frogCY<=rightCar1Y+32 && frogCY>rightCar1Y && frogR >= rightCar1X && frogL <= rightCar1X+32)||//car2 hit
                  (frogCY<=leftCar2Y+32 && frogCY>leftCar2Y && frogR >= leftCar2X && frogL <= leftCar2X+32)||    //car3 hit
                  (frogCY<=leftCar1Y+32 && frogCY>leftCar1Y && frogR >= leftCar1X && frogL <= leftCar1X+32)){    //car4 hit
